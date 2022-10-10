@@ -1,5 +1,33 @@
 .header-banner{
-    background-color: #8ecafe;
-    margin: 2% 5%;
+    background-color: #3D6B7A;
+    margin: 2% 7%;
     padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-banner img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.banner-text{
+    padding: 4%;
+}
+
+.banner-text h3{
+    color: white;
+}
+
+.banner-text p{
+    color: rgb(202, 200, 200);
+}
+
+.banner-text button{
+    background-color: #66c2fa;
+    margin-top: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
