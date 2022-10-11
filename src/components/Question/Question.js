@@ -8,8 +8,8 @@ import { faEye } from '@fortawesome/free-solid-svg-icons';
 const Question = ({ question, index }) => {
     const options = question.options;
     const clickAnswer = (option) => {
+        //react toast message for right and wrong answer
         if (option === question.correctAnswer) {
-            //react toast message
             toast.success('Correct answer! Good job!!!');
         } 
         else {
@@ -18,6 +18,7 @@ const Question = ({ question, index }) => {
     }
 
     const revealAnswer = () => {
+        // toast message revealing the right answer
         toast.info(question.correctAnswer);  
     } 
 

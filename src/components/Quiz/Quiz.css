@@ -9,3 +9,11 @@
     background-image: radial-gradient(#DCF5FC, #5bbeb1);
     border-radius: 8px;
 }
+
+/* mobile responsive */
+@media screen and (max-width:700px) {
+    .quiz-container{
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+}
