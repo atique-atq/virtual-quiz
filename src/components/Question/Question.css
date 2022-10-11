@@ -3,10 +3,20 @@
     margin: 2%;
     padding: 2%;
     width: 100%;
+    position: relative;
 }
 
 .question{
     color: rgb(10, 10, 128);
+}
+
+.eyeIcon{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    color: rgb(88, 88, 185);
+    font-size: 20px;
+    font-weight: 700;
 }
 .question-options{
     display: grid;
