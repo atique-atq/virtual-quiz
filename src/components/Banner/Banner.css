@@ -33,3 +33,47 @@
     color: #054D7A;
     font-weight: 500;
 }
+
+/* tablet responsive */
+@media screen and (max-width:900px) {
+    .header-banner{
+        background-color: #3D6B7A;
+        margin: 2% 7%;
+        padding: 1%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .header-banner img{
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .banner-text{
+        padding: 3%;
+    }
+}
+
+/* mobile responsiveness  */
+@media screen and (max-width:600px) {
+    .header-banner{
+        background-color: #3D6B7A;
+        margin: 3% 7%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .header-banner img{
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    .banner-text{
+        padding: 2%;
+    }
+}
