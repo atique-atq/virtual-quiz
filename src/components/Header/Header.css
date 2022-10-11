@@ -1,11 +1,11 @@
 .header{
-    height: 80px;
+    /* height: 80px; */
     background-color: #054d7a;
-    display: flex;
+    /* display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 140px;
-    padding-right: 140px;
+    padding-right: 140px; */
     box-shadow: 1px 10px 10px #98cdfca8;
 }
 
