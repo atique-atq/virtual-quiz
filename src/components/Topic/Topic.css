@@ -12,25 +12,55 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 2%;
 }
 
 .topic-info p{
  font-weight: 700;
+ margin: 0;
 }
 
 .topic-info small{
     color: rgb(112, 112, 112);
+    font-size: 13px;
 }
 
 .topic-button{
     background-color: #66c2fa;
-    margin-top: 20px;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: 500;
 }
+
+.topic-button:hover{
+    background-color: #FFA53F;
+}
+
 .topic-info a{
+    margin: 0;
+    padding: 0;
     text-decoration: none;
     color: #054D7A;
+}
+
+
+/* responsiveness for button and cart text  */
+@media screen and (max-width:1350px) {
+    .topic-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+    }
+    .topic-info small{
+        color: rgb(112, 112, 112);
+        font-size: 13px;
+    }
+    .topic-button{
+        margin: 3px;
+        padding: 2px 8px;
+        font-size: 12px;
+    }
 }

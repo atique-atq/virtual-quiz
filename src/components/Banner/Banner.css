@@ -34,6 +34,9 @@
     font-weight: 500;
 }
 
+.banner-text button:hover{
+    background-color: #FFA53F;
+}
 /* tablet responsive */
 @media screen and (max-width:900px) {
     .header-banner{
