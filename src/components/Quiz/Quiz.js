@@ -4,9 +4,10 @@ import './Quiz.css';
 
 const Quiz = () => {
     const quiz = useLoaderData();
+
     return (
         <div>
-            <p>This is quiz : {quiz}</p>
+            <p>This is quiz :</p>
         </div>
     );
 };

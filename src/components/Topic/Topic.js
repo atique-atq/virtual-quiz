@@ -12,8 +12,7 @@ const Topic = ({ topic }) => {
             <div className='topic-info'>
                 <p>{name}</p>
                 <small>Total Quiz : {total}</small>
-                <button className='topic-button'> <Link to={`quiz/#{id}`}>Start Quiz</Link></button>
-                {/* <p><small>userName: <Link to={`/friend/${id}`}>{username}</Link></small></p> */}
+                <button className='topic-button'> <Link to={`/quiz/${id}`}>Start Quiz</Link></button>
             </div>
             
         </div>
