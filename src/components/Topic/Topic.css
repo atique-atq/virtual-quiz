@@ -28,6 +28,9 @@
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
-    color: white;
-    font-weight: 600;
+    font-weight: 500;
+}
+.topic-info a{
+    text-decoration: none;
+    color: #054D7A;
 }
