@@ -1,11 +1,13 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import './Topics.css';
 import Banner from '../Banner/Banner';
 import Topic from '../Topic/Topic';
 
 const Topics = () => {
     const topics = useLoaderData().data;
+    const navigate = useNavigate();
+    navigate('/statistics', { topics: topics });
 
     return (
         <div>

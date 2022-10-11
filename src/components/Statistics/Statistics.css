@@ -1,0 +1,10 @@
+.chart-container{
+    background-color: #F8F9FA;
+    margin: 2% 15%;
+    padding: 1% 10%;
+}
+
+.chart-container h3{
+    margin: 2% 20%;
+    color: #2980B9;
+}
