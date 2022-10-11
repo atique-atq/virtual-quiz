@@ -19,11 +19,11 @@ const Header = () => {
 
     <Navbar collapseOnSelect expand="lg" className='header'>
       <Container>
-        <Navbar to="/home" className='name'>Virtual Quiz</Navbar>
+        <Navbar to="/home" className='name ms-5'>Virtual Quiz</Navbar>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto me-5">
             <Link to="/">Topic</Link>
             <Link to="/statistics">Statistics</Link>
             <Nav.Link to="/blog">Blog</Nav.Link>

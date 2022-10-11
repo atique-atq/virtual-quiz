@@ -1,0 +1,11 @@
+.quiz-container{
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+    background-image: radial-gradient(#DCF5FC, #5bbeb1);
+    border-radius: 8px;
+}

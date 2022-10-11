@@ -1,0 +1,25 @@
+.question-cart{
+    box-shadow: 5px 5px 5px #9fa1a3a8;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+}
+
+.question{
+    color: rgb(10, 10, 128);
+}
+.question-options{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.option{
+    border: 2px solid #075b8f92;
+    border-radius: 4px;
+    padding: 2%;
+}
+
+.option-text{
+    margin-left: 2%;
+}

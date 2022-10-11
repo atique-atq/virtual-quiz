@@ -4,6 +4,7 @@
     box-shadow: 5px 5px 5px #9fa1a3a8;
 }
 .topic img{
+    margin-left: 2%;
     padding: 2%;
     width: 95%;
 }
@@ -13,11 +14,13 @@
     justify-content: space-around;
     align-items: center;
     padding: 2%;
+
 }
 
 .topic-info p{
- font-weight: 700;
+ font-weight: 600;
  margin: 0;
+ padding-left: 5px;
 }
 
 .topic-info small{
