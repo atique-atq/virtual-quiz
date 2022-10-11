@@ -23,3 +23,8 @@
 .option-text{
     margin-left: 2%;
 }
+
+.option:hover{
+    background-color: #0d88d4;
+    cursor: pointer;
+}
