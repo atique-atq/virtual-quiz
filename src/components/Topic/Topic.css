@@ -1,0 +1,33 @@
+.topic{
+    background-color: #87ccee79;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #9fa1a3a8;
+}
+.topic img{
+    padding: 2%;
+    width: 95%;
+}
+
+.topic-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.topic-info p{
+ font-weight: 700;
+}
+
+.topic-info small{
+    color: rgb(112, 112, 112);
+}
+
+.topic-button{
+    background-color: #66c2fa;
+    margin-top: 20px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
