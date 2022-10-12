@@ -14,7 +14,7 @@
 @media screen and (max-width:900px) {
     .chart-container{
         background-color: #F8F9FA;
-        margin: 5% 10%;
-        padding: 4% 5%;
+        margin: 5% 5%;
+        padding: 4% 1%;
     }
 }
