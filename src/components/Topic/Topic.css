@@ -60,14 +60,34 @@
     }
 
     .topic-info p{
-        padding-left: 2%;
         font-size: 16px;
         font-weight: 600;
-        margin: 0;
     }
 
     .topic-info small{
         color: rgb(112, 112, 112);
         font-size: 14px;
+    }
+}
+
+/* mobile responsiveness for button and cart text  */
+@media screen and (max-width:700px) {
+    .topic-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+        align-items: center;
+        padding: 1%;
+    }
+
+    .topic-info p{
+        padding-left: 5px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .topic-info small{
+        color: rgb(112, 112, 112);
+        font-size: 12px;
     }
 }
