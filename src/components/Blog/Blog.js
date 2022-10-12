@@ -13,7 +13,7 @@ const Blog = () => {
                     </Accordion.Body>
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
-                    <Accordion.Header>How does Context API works?</Accordion.Header>
+                    <Accordion.Header>How does Context API work?</Accordion.Header>
                     <Accordion.Body>
                     React Context API is a system for creating global varibles the can be effectively passed around. When data are passed from each level of component and so on, it is called 'Prop Drilling'. Context API does exactly the alternative. Context API allows to have the data in a central store. Without passing to each intermediary element, Context API allows any component to use the data from that central store created. In Context API, first we need to create a context using createContext. Then we need to create provider. Finally we need to import the context to wrap the components with itself. 
                     </Accordion.Body>
