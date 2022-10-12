@@ -22,11 +22,11 @@ function App() {
           loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`),
           element: <Quiz></Quiz>
         },
-        // {
-        //   path: '/statistics',
-        //   loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
-        //   element: <Statistics></Statistics>
-        // }
+        {
+          path: '/statistics',
+          loader: async () => fetch('https://openapi.programming-hero.com/api/quiz'),
+          element: <Statistics></Statistics>
+        }
       ]
     }
   ])

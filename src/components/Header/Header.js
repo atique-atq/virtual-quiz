@@ -5,28 +5,16 @@ import './Header.css';
 
 const Header = () => {
     return (
-        // <nav className='header'>
-        //     <div className='name'>
-        //         <p>Virtual Quiz</p>
-        //     </div>   
-        
-        //     <div>
-        //         <Link to="/">Topics</Link>
-        //         <Link to="/statistics">Statistics</Link>
-        //         <Link to="/blog">Blog</Link>
-        //     </div>
-        // </nav>
-
     <Navbar collapseOnSelect expand="lg" className='header'>
       <Container>
-        <Navbar to="/home" className='name ms-5'>Virtual Quiz</Navbar>
+      <Link to="/"><Navbar className='name ms-5'>Virtual Quiz</Navbar></Link>
         
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto me-5">
             <Link to="/">Topic</Link>
             <Link to="/statistics">Statistics</Link>
-            <Nav.Link to="/blog">Blog</Nav.Link>
+            <Link to="/blog">Blog</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
