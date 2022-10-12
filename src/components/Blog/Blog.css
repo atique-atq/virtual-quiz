@@ -1,6 +1,7 @@
 .blogs-container{
     background-color: #F8F9FA;
     margin: 5% 12%;
+    box-shadow: 5px 5px 5px #9fa1a3a8;
 }
 
 /* tablet and mobile responsive */
