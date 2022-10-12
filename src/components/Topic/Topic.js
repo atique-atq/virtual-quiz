@@ -11,10 +11,9 @@ const Topic = ({ topic }) => {
 
             <div className='topic-info'>
                 <p>{name}</p>
-                <small>Total Quiz : {total}</small>
-                <button className='topic-button'> <Link to={`/quiz/${id}`}>Start Quiz</Link></button>
+                <small>Total Quiz : {total}</small>               
             </div>
-            
+            <button className='topic-button'> <Link to={`/quiz/${id}`}>Start Quiz</Link></button>
         </div>
     );
 };

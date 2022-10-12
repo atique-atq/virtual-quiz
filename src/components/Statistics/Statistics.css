@@ -8,3 +8,12 @@
     margin: 2% 20%;
     color: #2980B9;
 }
+
+/* tablet and mobile responsive */
+@media screen and (max-width:900px) {
+    .chart-container{
+        background-color: #F8F9FA;
+        margin: 5% 10%;
+        padding: 4% 5%;
+    }
+}

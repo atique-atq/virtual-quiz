@@ -1,4 +1,12 @@
 .blogs-container{
     background-color: #F8F9FA;
-    margin: 2% 2%;
+    margin: 5% 12%;
+}
+
+/* tablet and mobile responsive */
+@media screen and (max-width:900px) {
+    .blogs-container{
+        background-color: #F8F9FA;
+        margin: 3% 10%;
+    }
 }

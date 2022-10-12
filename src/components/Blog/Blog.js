@@ -5,7 +5,7 @@ import './Blog.css'
 const Blog = () => {
     return (
         <div className='blogs-container'>
-            <Accordion defaultActiveKey="0" className='m-5 p-5'>
+            <Accordion defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                     <Accordion.Header>What is the purpose of react router?</Accordion.Header>
                     <Accordion.Body>
