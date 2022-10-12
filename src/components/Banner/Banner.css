@@ -34,6 +34,11 @@
     font-weight: 500;
 }
 
+.banner-text button a{
+    text-decoration: none;
+    color: #054D7A;
+}
+
 .banner-text button:hover{
     background-color: #FFA53F;
 }
